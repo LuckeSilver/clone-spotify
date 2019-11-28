@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.aside`
-  height:100%;
+  height: 100%;
   width: 200px;
   background: #121212;
   color: #b3b3b3;
@@ -29,7 +29,7 @@ export const Nav = styled.ul`
       text-decoration: none;
       font-size: 13px;
       line-height: 32px;
-      font-weight: ${props => (props.main ? 'bold' : 'normal')}
+      font-weight: ${props => (props.main ? "bold" : "normal")}
 
       &:hover {
         color: #fff;
@@ -57,7 +57,6 @@ export const NewPlaylist = styled.button`
   display: flex;
   align-items: center;
   padding: 15px 25px;
-
 
   &:hover {
     color: #fff;

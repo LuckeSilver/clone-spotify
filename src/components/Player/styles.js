@@ -1,13 +1,22 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Content = styled.div`
-  
-  height: 72px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #282828;
   padding: 12px;
+
+  img {
+    width: 10px;
+    height: 10px;
+  }
+
+  img.play {
+    width: 25px;
+    height: 25px;
+  }
 `;
 
 export const Current = styled.div`
@@ -23,7 +32,6 @@ export const Current = styled.div`
     margin-left: 12px;
     display: flex;
     flex-direction: column;
-
 
     span {
       font-size: 13px;
@@ -44,6 +52,29 @@ export const Playng = styled.div`
   align-items: center;
 `;
 
+export const Controls = styled.div`
+  button {
+    background: transparent;
+    border: 0;
+    margin: 0 15px;
+  }
+`;
+
+export const Time = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+
+  span {
+    font-size: 11px;
+    color: #b3b3b3;
+  }
+`;
+
+export const ProgressSlider = styled.div`
+  width: 320px;
+  margin: 0 15px;
+`;
 
 export const Volume = styled.div`
   display: flex;
