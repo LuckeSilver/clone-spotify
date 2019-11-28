@@ -9,8 +9,8 @@ export const Content = styled.div`
   padding: 12px;
 
   img {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
 
   img.play {
@@ -72,7 +72,7 @@ export const Time = styled.div`
 `;
 
 export const ProgressSlider = styled.div`
-  width: 320px;
+  width: 500px;
   margin: 0 15px;
 `;
 
