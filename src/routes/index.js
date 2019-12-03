@@ -11,5 +11,5 @@ const Routes = () => (
     <Route path="/playlists/:id" component={Playlist} />
   </Switch>
 );
-
+//fazendo alterações para teste
 export default Routes;
