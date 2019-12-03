@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createStore, compose, applyMiddleware } from "redux";
 import createSagaMiddleware from "redux-saga";
 
@@ -28,3 +29,6 @@ const store = createApropriateStore(
 sagaMiddleware.run(sagas);
 
 export default store;
+=======
+import { createStore, compose, applyMiddleware } from 'redux';
+>>>>>>> 7db3698dbd12415d01f0d17785831d95562ec065
